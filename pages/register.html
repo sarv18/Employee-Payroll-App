@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Payroll</title>
+    <link rel="stylesheet" href="../css/register.css" />
+</head>
+
+<body>
+    <header class="header-content header" id="headerID">
+        <div class="logo-content">
+        <img src="../assets/logo.png" alt="" />
+        <div>
+            <span class="emp-text"> EMPLOYEE </span>
+            <br />
+            <span class="emp-text emp-payroll">PAYROLL</span>
+        </div>
+        </div>
+    </header>
+
+    <div class="form-content">
+        <form class="form" id="emp-form" action="#">
+            <div class="form-head">Employee Payroll Form</div>
+
+            <div class="row-content">
+                <label for="name" class="label text">Name :</label>
+                <input
+                class="input"
+                type="text"
+                id="emp-name"
+                placeholder="Your name"
+                required
+                />
+                <div id="nameError" class="error-message"></div>  
+            </div>
+
+            <div class="row-content">
+                <label for="profile" class="label text">Profile image</label>
+                <div class="profile-radio-content">
+                <label>
+                    <input
+                    type="radio"
+                    name="profile"
+                    id="profile1"
+                    value="../assets/profile1.png"
+                    required
+                    />
+                    <img src="../assets/profile1.png" class="profile" alt="" />
+                </label>
+                <label>
+                    <input
+                    type="radio"
+                    name="profile"
+                    id="profile2"
+                    value="../assets/profile2.png"
+                    required
+                    />
+                    <img src="../assets/profile2.png" class="profile" alt="" />
+                </label>
+                <label>
+                    <input
+                    type="radio"
+                    name="profile"
+                    id="profile3"
+                    value="../assets/profile3.png"
+                    required
+                    />
+                    <img src="../assets/profile3.png" class="profile" alt="" />
+                </label>
+                <label>
+                    <input
+                    type="radio"
+                    name="profile"
+                    id="profile4"
+                    value="../assets/profile4.png"
+                    required
+                    />
+                    <img src="../assets/profile4.png" class="profile" alt="" />
+                </label>
+                </div>
+            </div>
+
+            <div class="row-content">
+                <label for="gender" class="label text">Gender</label>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male" />
+                    <label for="male" class="text">Male</label>
+                    <input type="radio" name="gender" id="female" value="female" />
+                    <label for="female" class="text">Female</label>
+                </div>
+            </div>
+
+            <div class="row-content">
+                <label for="department" class="label text">Department</label>
+                <div>
+                <input
+                    type="checkbox"
+                    class="checkbox"
+                    name="hr"
+                    id="hr"
+                    value="HR"
+                />
+                <label for="hr" class="text">HR</label>
+                <input
+                    type="checkbox"
+                    class="checkbox"
+                    name="sales"
+                    id="sales"
+                    value="Sales"
+                />
+                <label for="sales" class="text">Sales</label>
+                <input
+                    type="checkbox"
+                    class="checkbox"
+                    name="finance"
+                    id="finance"
+                    value="Finance"
+                />
+                <label for="finance" class="text">Finance</label>
+                <input
+                    type="checkbox"
+                    class="checkbox"
+                    name="engineer"
+                    id="engineer"
+                    value="Engineer"
+                />
+                <label for="engineer" class="text">Engineer</label>
+                <input
+                    type="checkbox"
+                    class="checkbox"
+                    name="others"
+                    id="others"
+                    value="Others"
+                />
+                <label for="others" class="text">Others</label>
+                </div>
+            </div>
+
+            <div class="row-content">
+                <label for="salary" class="label text">Choose your salary: </label>
+                <select name="salary" id="salary" class="input">
+                    <option value="" disabled selected>Salary</option>
+                    <option value="300000">300,000</option>
+                    <option value="400000">400,000</option>
+                    <option value="500000">500,000</option>
+                </select>
+                </div>
+            
+            <div class="row-content">
+                <label for="startDate" class="label text">Start Date</label>
+                <div>
+                <select name="day" id="day">
+                    <option value="Day">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select name="month" id="month">
+                    <option value="Month">Month</option>
+                    <option value="Jan">January</option>
+                    <option value="Feb">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="Aug">August</option>
+                    <option value="Sept">September</option>
+                    <option value="Oct">October</option>
+                    <option value="Nov">November</option>
+                    <option value="Dec">December</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="Year">Year</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+                </div>
+            </div>
+
+            <div class="row-content">
+                <label for="notes" class="label text">Notes</label>
+                <textarea
+                name="notes"
+                id="notes"
+                class="input"
+                ></textarea>
+            </div>
+
+            <div class="buttonParent">
+                <a href="./dashboard.html" class="button cancelButton">Cancel</a>
+                <div class="submit-reset">
+                    <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                    <button type= "reset" class="button resetButton" id="resetButton">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src= "../js/users.js"></script>
+    <script src= "../js/dashboard.js"></script>
+</body>
+</html>

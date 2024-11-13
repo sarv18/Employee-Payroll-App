@@ -1,0 +1,308 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #f7f7f7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px;
+}
+
+.header {
+    width: 100%;
+    background-color: #ffffff;
+    height: 10%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 0px solid green;
+    margin-left: 0px;
+    margin-bottom: 7px;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    margin-left: 40px;
+}
+
+.logo-content-img {
+    border: 0px solid #42515f;
+}
+
+.emp-text {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+}
+
+.emp-payroll {
+    color: #42515f;
+}
+
+.form-content {
+    height: 85%;
+    background-color: #f7f7f7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.form {
+    width: 50%;
+    height: 100%;
+    padding: 0px 20px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head {
+    font: normal normal bold 24px/37px Robot;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.label {
+    min-width: 140px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.text {
+    font-size: 16px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Robot;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#salary{
+    width: 39%;
+}
+.error-message{
+    color: red;
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.submit-reset{
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    background-color: transparent;
+}
+
+.buttonParent {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+}
+
+.submitButton {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-right: 30px;
+}
+
+.resetButton {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.cancelButton {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-right: 30px;
+}
+
+@media (max-width: 932px) {
+    .form {
+        width: 70%; 
+    }
+   .row-content{
+    margin-bottom: 0px;
+   }
+    .profile {
+        width: 20px; 
+        margin-left: 5px;
+    }
+   .buttonParent{
+    flex-direction: column;
+    padding: 5px;
+   }
+    
+    #salary {
+        width: 50%; 
+    }
+  
+    .button {
+        font-size: 10px; 
+        padding: 10px; 
+    }
+    .cancelButton{
+      margin-bottom: 5px;
+    }
+    .input{
+      padding: 7px;
+      margin-top: 4px;
+    }
+    .submitButton, .resetButton, .cancelButton {
+        margin-right: 10px;
+    }
+  
+    .logo-content {
+        margin-left: 20px;
+    }
+}
+  
+@media (max-width: 536px) {
+    .form {
+      background-color: white;
+    }
+    .form-content{
+      height: 110%;
+      background-color: white;
+    }
+    .form-head{
+      padding-bottom: 0px;
+      margin-top: 5px;
+    }
+    select{
+      padding: 7px;
+    }
+   .row-content{
+    flex-direction: column;
+    align-items: flex-start;
+   }
+  
+   .buttonParent{
+    padding: 0px;
+    margin-top: 7px;
+   }
+    
+    .button {
+      padding: 7px;
+    }
+    .input{
+      padding: 4px;
+    }
+    .label{
+      min-width: 100px;
+    }
+}
+  
+  
+@media (max-width: 440px) {
+    .form-content{
+      height: 92%;
+    }
+    .buttonParent {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .button {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+  
+    .submit-reset {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .submitButton,
+    .resetButton,
+    .cancelButton {
+        width: 100%; 
+        max-width: 200px; 
+    }
+}
+  
+  
+@media (max-width: 376px){
+    .form-content{
+      height: 115%;
+    }
+}
+  

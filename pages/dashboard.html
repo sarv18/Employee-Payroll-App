@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll Home</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+    <header class="header-content header" id="headerID">
+        <div class="logo-content">
+            <img src="../assets/logo.png" alt="">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="header-content">
+            <div class="emp-detail-text">Employee Details<div class="emp-count"></div></div>
+            <div class="searchBar">
+                <input id="search-input" class="search" type="text" placeholder="Search user" />
+                <img id="search-button" class="searchIcon" src="../assets/icons8-search-50.png" alt="">
+            </div>
+            
+            <div class="searchAddUser-cnt">
+                <a href="./register.html" class="add-button">
+                    <img src="../assets/icons8-add-24.png" alt=""> Add User
+                </a>
+            </div>
+        </div>
+
+        <table id="display" class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Start Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTableBody"></tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/users.js"></script>
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

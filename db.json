@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "id": "4bf5",
+      "name": "Nwew HGhjj",
+      "profile": "../assets/profile2.png",
+      "gender": "female",
+      "department": [
+        "Sales"
+      ],
+      "salary": "400000",
+      "startDate": {
+        "day": "14",
+        "month": "Oct",
+        "year": "2023"
+      },
+      "notes": "Jiiiiiiiii"
+    },
+    {
+      "id": "6533",
+      "name": "Nwew HGhjj",
+      "profile": "../assets/profile1.png",
+      "gender": "male",
+      "department": [
+        "HR"
+      ],
+      "salary": "300000",
+      "startDate": {
+        "day": "14",
+        "month": "Sept",
+        "year": "2023"
+      },
+      "notes": "lllllll"
+    },
+    {
+      "id": "d6da",
+      "name": "Nwew HGhjj",
+      "profile": "../assets/profile3.png",
+      "gender": "female",
+      "department": [
+        "Sales"
+      ],
+      "salary": "400000",
+      "startDate": {
+        "day": "17",
+        "month": "Dec",
+        "year": "2023"
+      },
+      "notes": "llllllllll"
+    },
+    {
+      "id": "fa85",
+      "name": "Nwew HGhjj",
+      "profile": "../assets/profile2.png",
+      "gender": "female",
+      "department": [
+        "Sales"
+      ],
+      "salary": "400000",
+      "startDate": {
+        "day": "12",
+        "month": "Feb",
+        "year": "2021"
+      },
+      "notes": "Jiiii"
+    },
+    {
+      "id": "7fd8",
+      "name": "Sarvesh Shelke",
+      "profile": "../assets/profile2.png",
+      "gender": "male",
+      "department": [
+        "HR"
+      ],
+      "salary": "300000",
+      "startDate": {
+        "day": "16",
+        "month": "Oct",
+        "year": "2022"
+      },
+      "notes": "lllllo"
+    }
+  ]
+}
