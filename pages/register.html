@@ -25,7 +25,7 @@
             <div class="form-head">Employee Payroll Form</div>
 
             <div class="row-content">
-                <label for="name" class="label text">Name :</label>
+                <label for="name" class="label text">Name </label>
                 <input
                 class="input"
                 type="text"
@@ -33,7 +33,7 @@
                 placeholder="Your name"
                 required
                 />
-                <div id="nameError" class="error-message"></div>  
+                <span id="nameError" class="error-message"></span>  
             </div>
 
             <div class="row-content">
@@ -80,16 +80,18 @@
                     <img src="../assets/profile4.png" class="profile" alt="" />
                 </label>
                 </div>
+                <span id="profileError" class="error-message"></span>
             </div>
 
             <div class="row-content">
                 <label for="gender" class="label text">Gender</label>
                 <div>
-                    <input type="radio" name="gender" id="male" value="male" />
+                    <input type="radio" name="gender" id="male" value="Male" />
                     <label for="male" class="text">Male</label>
-                    <input type="radio" name="gender" id="female" value="female" />
+                    <input type="radio" name="gender" id="female" value="Female" />
                     <label for="female" class="text">Female</label>
                 </div>
+                <span id="genderError" class="error-message"></span>
             </div>
 
             <div class="row-content">
@@ -136,16 +138,18 @@
                 />
                 <label for="others" class="text">Others</label>
                 </div>
+                <span id="departmentError" class="error-message"></span>
             </div>
 
             <div class="row-content">
-                <label for="salary" class="label text">Choose your salary: </label>
+                <label for="salary" class="label text">Salary </label>
                 <select name="salary" id="salary" class="input">
-                    <option value="" disabled selected>Salary</option>
+                    <option value="" disabled selected>Select Salary</option>
                     <option value="300000">300,000</option>
                     <option value="400000">400,000</option>
                     <option value="500000">500,000</option>
                 </select>
+                <span id="salaryError" class="error-message"></span>
                 </div>
             
             <div class="row-content">
@@ -187,18 +191,18 @@
                 </select>
                 <select name="month" id="month">
                     <option value="Month">Month</option>
-                    <option value="Jan">January</option>
-                    <option value="Feb">February</option>
-                    <option value="March">March</option>
-                    <option value="April">April</option>
-                    <option value="May">May</option>
-                    <option value="June">June</option>
-                    <option value="July">July</option>
-                    <option value="Aug">August</option>
-                    <option value="Sept">September</option>
-                    <option value="Oct">October</option>
-                    <option value="Nov">November</option>
-                    <option value="Dec">December</option>
+                    <option value="01">January</option>
+                    <option value="02">February</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
                 </select>
                 <select name="year" id="year">
                     <option value="Year">Year</option>
@@ -209,6 +213,7 @@
                     <option value="2020">2020</option>
                 </select>
                 </div>
+                <span id="dateError" class="error-message"></span>
             </div>
 
             <div class="row-content">
@@ -218,6 +223,7 @@
                 id="notes"
                 class="input"
                 ></textarea>
+                <span id="notesError" class="error-message"></span>
             </div>
 
             <div class="buttonParent">
@@ -230,7 +236,6 @@
         </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src= "../js/users.js"></script>
-    <script src= "../js/dashboard.js"></script>
+    <script src= "../js/register.js"></script>
 </body>
 </html>

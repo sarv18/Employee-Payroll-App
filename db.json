@@ -1,84 +1,120 @@
 {
   "employees": [
     {
-      "id": "4bf5",
-      "name": "Nwew HGhjj",
+      "id": "234a",
+      "name": "Alex Gross",
       "profile": "../assets/profile2.png",
-      "gender": "female",
+      "gender": "Male",
       "department": [
-        "Sales"
-      ],
-      "salary": "400000",
-      "startDate": {
-        "day": "14",
-        "month": "Oct",
-        "year": "2023"
-      },
-      "notes": "Jiiiiiiiii"
-    },
-    {
-      "id": "6533",
-      "name": "Nwew HGhjj",
-      "profile": "../assets/profile1.png",
-      "gender": "male",
-      "department": [
-        "HR"
+        "HR",
+        "Finance",
+        "Engineer"
       ],
       "salary": "300000",
       "startDate": {
-        "day": "14",
-        "month": "Sept",
+        "day": "17",
+        "month": "10",
         "year": "2023"
       },
-      "notes": "lllllll"
+      "notes": "heyyyyy"
     },
     {
-      "id": "d6da",
-      "name": "Nwew HGhjj",
-      "profile": "../assets/profile3.png",
-      "gender": "female",
+      "id": "f8bb",
+      "name": "Ross Camron",
+      "profile": "../assets/profile1.png",
+      "gender": "Male",
       "department": [
-        "Sales"
+        "Sales",
+        "Finance"
       ],
       "salary": "400000",
       "startDate": {
         "day": "17",
-        "month": "Dec",
+        "month": "08",
         "year": "2023"
       },
-      "notes": "llllllllll"
+      "notes": "koooooooo"
     },
     {
-      "id": "fa85",
-      "name": "Nwew HGhjj",
-      "profile": "../assets/profile2.png",
-      "gender": "female",
+      "id": "12d9",
+      "name": "Devon Martinez",
+      "profile": "../assets/profile4.png",
+      "gender": "Male",
       "department": [
         "Sales"
       ],
-      "salary": "400000",
+      "salary": "300000",
       "startDate": {
-        "day": "12",
-        "month": "Feb",
-        "year": "2021"
+        "day": "16",
+        "month": "08",
+        "year": "2022"
       },
-      "notes": "Jiiii"
+      "notes": "Hii"
     },
     {
-      "id": "7fd8",
-      "name": "Sarvesh Shelke",
-      "profile": "../assets/profile2.png",
-      "gender": "male",
+      "id": "633e",
+      "name": "Ross Camron",
+      "profile": "../assets/profile4.png",
+      "gender": "Male",
       "department": [
         "HR"
       ],
       "salary": "300000",
       "startDate": {
-        "day": "16",
-        "month": "Oct",
-        "year": "2022"
+        "day": "15",
+        "month": "09",
+        "year": "2023"
       },
-      "notes": "lllllo"
+      "notes": "hiiiiiii"
+    },
+    {
+      "id": "8203",
+      "name": "Adam Gross",
+      "profile": "../assets/profile2.png",
+      "gender": "Female",
+      "department": [
+        "Sales"
+      ],
+      "salary": "400000",
+      "startDate": {
+        "day": "15",
+        "month": "09",
+        "year": "2023"
+      },
+      "notes": "loooooo"
+    },
+    {
+      "id": "0ce1",
+      "name": "Jonathan Curry",
+      "profile": "../assets/profile2.png",
+      "gender": "Female",
+      "department": [
+        "HR",
+        "Sales"
+      ],
+      "salary": "300000",
+      "startDate": {
+        "day": "15",
+        "month": "09",
+        "year": "2023"
+      },
+      "notes": "hoooooo"
+    },
+    {
+      "name": "Sarvesh",
+      "profile": "../assets/profile2.png",
+      "gender": "Female",
+      "department": [
+        "Sales"
+      ],
+      "salary": "300000",
+      "startDate": {
+        "day": "13",
+        "month": "09",
+        "year": "2023"
+      },
+      "notes": "Hi this is ",
+      "id": "ab34"
     }
   ]
 }

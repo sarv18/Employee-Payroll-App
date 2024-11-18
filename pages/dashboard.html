@@ -21,10 +21,12 @@
     <div class="main-content">
         <div class="header-content">
             <div class="emp-detail-text">Employee Details<div class="emp-count"></div></div>
-            <div class="searchBar">
-                <input id="search-input" class="search" type="text" placeholder="Search user" />
-                <img id="search-button" class="searchIcon" src="../assets/icons8-search-50.png" alt="">
-            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search by name" />
+                <button id="searchButton">
+                    <img src="../assets/icons8-search-50.png" alt="Search" class="search-icon" />
+                </button>
+            </div>            
             
             <div class="searchAddUser-cnt">
                 <a href="./register.html" class="add-button">
@@ -36,19 +38,18 @@
         <table id="display" class="table">
             <thead>
                 <tr>
+                    <th></th>
                     <th>Name</th>
                     <th>Gender</th>
                     <th>Department</th>
                     <th>Salary</th>
                     <th>Start Date</th>
-                    <th>Action</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody id="employeeTableBody"></tbody>
         </table>
     </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="../js/users.js"></script>
     <script src="../js/dashboard.js"></script>
 </body>
 </html>
